@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
 
 ## On Device/Emulator/Simulator
 
-![](https://i.imgur.com/XXbzTaF.png | width=250)
+![](https://i.imgur.com/XXbzTaF.png){:height="50%" width="50%"}
 
 ## Project
 
