@@ -7,6 +7,8 @@ To proceed with this workshop you will need:
 2. a laptop to code with (and to test with if wanted)
 3. a mobile device to test with
 
+
+
 ## What is React Native (vs React)?
 
 React Native is an open-source mobile application framework created by Facebook, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use React along with native platform capabilities. (Wikipedia).
@@ -17,6 +19,8 @@ library vs framework: The technical difference between a framework and library l
 
 ![](https://i.imgur.com/vyeKtFu.jpg)
 
+
+
 ## How we write React vs How we'd write with React Native vs How it gets compiled into its native code:
 
 ![](https://i.imgur.com/kD2O38u.png)
@@ -24,6 +28,8 @@ library vs framework: The technical difference between a framework and library l
 These components get compiled from React Native code to the native code that the app actually uses.
 
 ![](https://i.imgur.com/QmOx65K.png)
+
+
 
 ## What are my options for coding in React Native?
 
@@ -40,6 +46,8 @@ For a list of compatibilities, check out what works and not with the tick box of
 
 Note: Expo-based apps can still use other libraries not in the directory as long they're not specifc React Native libraries and instead are JS-only libraries (like moment). Another way to find out if a library is compatible or not is to check if it needs (react-native link) as part of its installation process. If it doesn't say so, then it works with Expo.
 
+
+
 ## Expo as a Start
 
 To minimise complexity and maximise the learning opportunities of this workshop, we'll proceed with Expo so that the native code handling is taken away from us and we head directly towards app development.
@@ -49,6 +57,8 @@ If in doubt, React Native docs itself mentions that as a new starter to React Na
 
 https://reactnative.dev/docs/0.60/getting-started
 
+
+
 ## Installation of Expo
 In terminal:
 ```
@@ -57,9 +67,13 @@ npm install -g expo-cli
 
 This bypasses the need to install react-native as expo will cover the installation of React-Native.
 
+
+
 ## Developing with Mobile Devices
 
 Install Expo Client (from App Store or Play Store depending on your device)
+
+
 
 ## Developing with Laptops/Desktops
 
@@ -72,6 +86,8 @@ For Windows/Linux/Mac:
 https://docs.expo.io/workflow/android-studio-emulator/
 
 Take note: A Windows/Linux OS user will only be able to develop with the Android Studio Emulator unless they install a Virtual Mac or rent a Mac from the Cloud while a MacOS user will be able to develop in both because that user will have access to Xcode as well as the open-source Android Studio Emulator
+
+
 
 ## Working With Expo
 
@@ -89,6 +105,8 @@ To develop using your device for Android, head into the app and click the "Scan 
 To develop using your device for iOS, go to your camera and Expo should run when it sees the QR Code in Metro Bundler
 
 To develop using your laptop or desktop, you'll have to go through the installation process and install each one respectively, connect the simulator/emulator through the terminal, and run it through the Metro Bundler. For the purposes of this workshop, we'll stick with developing with devices.
+
+
 
 ## Explanation
 
@@ -108,6 +126,8 @@ The StyleSheet is similar to React with a few key things:
 * It starts out with Flexbox
 * Styling usually stays in the same file as what it's styling either inline or within the StyleSheet
 
+
+
 ## Demo
 
 * Place a Text component that says "Cat Facts"
@@ -125,6 +145,8 @@ https://cat-fact.herokuapp.com/facts
 * Use a Text component within a Touchable Opacity component to create an onPress Cat Facts 10 api call that displays the state pre- and post- api call.
 * Style the Touchable Opacity component inline
 * Move the styles to the dedicated StyleSheet on the bottom
+
+
 
 ## End Result: 
 
@@ -198,9 +220,13 @@ const styles = StyleSheet.create({
 });
 ```
 
+
+
 ## On Device/Emulator/Simulator
 
-![](https://i.imgur.com/XXbzTaF.png){:height="50%" width="50%"}
+![](https://i.imgur.com/XXbzTaF.png)
+
+
 
 ## Project
 
@@ -217,6 +243,8 @@ If there's more time:
 * Use React's Context hook in the app for state management
 
 Check out the resources for React Native components, Expo, and React Navigation to learn more about React Native
+
+
 
 ## Resources
 
