@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
 
 ## On Device/Emulator/Simulator
 
-![](https://i.imgur.com/XXbzTaF.png)
+![](https://i.imgur.com/XXbzTaF.png =250x)
 
 ## Project
 
